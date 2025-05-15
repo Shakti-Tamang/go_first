@@ -24,6 +24,8 @@ func main() {
 	// var city = "Kathmandu"
 	var name string
 
+	namess, salary, age, veri := "shakti", 23.89, 12, false
+
 	message := "akjsb"
 
 	n1 := 4
@@ -48,5 +50,7 @@ func main() {
 	fmt.Println("message", "\t", message)
 	fmt.Println("numbers", "\t", n1)
 	fmt.Println(verified)
+
+	fmt.Println(namess, salary, age, veri)
 
 }
