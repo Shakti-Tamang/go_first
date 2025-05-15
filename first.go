@@ -26,6 +26,10 @@ func main() {
 
 	namess, salary, age, veri := "shakti", 23.89, 12, false
 
+	var count, bithNumber = 1, 2
+
+	var umer, ages int = 1, 6
+
 	message := "akjsb"
 
 	n1 := 4
@@ -52,5 +56,7 @@ func main() {
 	fmt.Println(verified)
 
 	fmt.Println(namess, salary, age, veri)
+	fmt.Println(count, bithNumber)
+	fmt.Print(umer, ages)
 
 }
