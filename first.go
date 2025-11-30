@@ -60,3 +60,30 @@ func main() {
 	fmt.Print(umer, ages)
 
 }
+
+// Basic Data Types:
+// Booleans:
+// bool: Represents truth values, either true or false.
+// Numeric Types:
+// Integers:
+// int, int8, int16, int32, int64: Signed integers of varying bit sizes. int typically defaults to the system's word size (32 or 64 bits).
+// uint, uint8, uint16, uint32, uint64: Unsigned integers of varying bit sizes. uint also typically defaults to the system's word size.
+// byte: An alias for uint8, commonly used for raw data.
+// rune: An alias for int32, used to represent Unicode code points (characters).
+// uintptr: An integer type large enough to hold the bit pattern of any pointer.
+// Floating-point Numbers:
+// float32, float64: Floating-point numbers with 32-bit and 64-bit precision, respectively. float64 is the default float type.
+// Complex Numbers:
+// complex64, complex128: Complex numbers with 32-bit and 64-bit floating-point components, respectively.
+// String Type:
+// string: Represents immutable sequences of UTF-8 encoded bytes (text).
+// Composite Data Types:
+// These are built using the basic types or other composite types.
+// Arrays: Fixed-size sequences of elements of the same type.
+// Slices: Dynamically-sized, flexible views into arrays.
+// Structs: Collections of fields (members) of potentially different types, grouped under a single name.
+// Pointers: Variables that store memory addresses of other variables.
+// Functions: First-class citizens in Go, meaning they can be assigned to variables, passed as arguments, and returned from other functions.
+// Interfaces: Define a set of method signatures that a type must implement to satisfy the interface.
+// Maps: Unordered collections of key-value pairs, where keys are unique and of a comparable type.
+// Channels: Used for communication between goroutines (concurrently executing functions).
