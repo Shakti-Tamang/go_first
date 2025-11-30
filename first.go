@@ -31,7 +31,7 @@ var (
 	nu1    int
 	nu2    float32
 	nu3    float64
-	n      string
+	n      string 
 	verify bool
 )
 
@@ -46,6 +46,8 @@ const (
 )
 
 func main() {
+
+	vat=60
 	// var city = "Kathmandu"
 	var name string
 	
@@ -61,6 +63,8 @@ func main() {
 	n1 := 4
 
 	verified := false
+
+
 
 	const human = "amu"
 
