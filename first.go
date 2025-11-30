@@ -1,6 +1,31 @@
-package main
+// package main Creates an EXECUTABLE
+// Library Package vs Executable Package:
+
+
+
+
+// What package main Actually Does
+// Technical Work:
+// Tells compiler: "Create an executable binary"
+
+// Provides entry point: Must contain func main()
+
+// Generates OS-specific executable: .exe (Windows), binary (Linux/Mac)
+
+package main // ← Creates a runnable program
 
 import "fmt"
+
+
+// Your Go files (.go)
+//     ↓
+// go build
+//     ↓
+// Compiler sees package main
+//     ↓
+// Creates executable with main() as entry point
+//     ↓
+// myapp.exe (Windows) or myapp (Linux/Mac)
 
 var (
 	nu1    int
